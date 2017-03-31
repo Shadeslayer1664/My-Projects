@@ -5,24 +5,47 @@
 	</head>
 	<body>
 		<form="contactUs.html" method="POST">
-			First Name:<input type="text" name="userFirstName"/><br/>
-			Last Name:<input type="text" name="userLastName"/><br/>
-			Email:<input type="text" name="userEmail"/><br/>
-			Type of License:<input type="radio" name="licenseType" value="Business" checked/>Business
-			<input type="radio" name="licenseType" value="Personal"/><br/>
-			Reason:<input type="select" name="userReason">
-				<option value="default">Select a Reason</option>
-				<option value="softwareSupport">Software Support</option>
-				<option value="hardwareSupport">Hardware Support</option>
-				<option value="informationRequest">Information Request</option>
-			</select><br/>
-			Additional Information<textarea name="additionalInformation"></textarea><br/>
-			<input type="checkbox" name="userAgreement" value="confirmation"/>I have read the terms of service.<br/>
-			<input type="submit" value="Send Request"/>
-			
+			<table border="0" width"300px" height="250px">
+				<tr>
+					<td align="right">First Name:</td>
+					<td><input type="text" name="userFirstName"/></td>
+				</tr>
+				<tr>
+					<td align="right">Last Name:</td>
+					<td><input type="text" name="userLastName"/></td>
+				</tr>
+				<tr>
+					<td align="right">Email:</td>
+					<td><input type="text" name="userEmail"/></td>
+				</tr>
+				<tr>
+					<td align="right">Type of License:</td>
+					<td><input type="radio" name="licenseType" value="Business" checked/>Business
+					<input type="radio" name="licenseType" value="Personal"/>Personal</td>
+				</tr>
+				<tr>
+					<td align="right">Reason:</td>
+						<td><select name="userReason">
+						<option value="default">Select a Reason</option>
+						<option value="softwareSupport">Software Support</option>
+						<option value="hardwareSupport">Hardware Support</option>
+						<option value="informationRequest">Information Request</option>
+					</select></td>
+				</tr>
+				<tr>
+					<td align="right">Additional Information</td>
+					<td><textarea name="additionalInformation"></textarea></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td align="left"><input type="checkbox" name="userAgreement" value="confirmation"/>I have read the terms of service.</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><input type="submit" value="Send Request"/></td>
+				</tr>
+			</table>
 		</form>
-			
-		</div>
 	</body>
 </html>
 
