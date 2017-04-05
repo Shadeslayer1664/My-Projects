@@ -13,7 +13,30 @@
 			font-family: Comic Sans MS;
 		}
 		h2{
-			font-family: Comic Sans MS;
+			font-family: 'Comic Sans MS';
+		}
+		a{
+			text decoration: none;
+		}
+		a:link{
+			text-decoration: none;
+		}
+		a:visited{
+			text-decoration: none;
+		}
+		a:hover{
+			text-decoration: underline;
+			background-color: pink;
+		}
+		a:active{
+			text-decoration: none;
+		}
+		tr:nth-child(even){
+			background-color: gray;
+		}
+		tbody{
+			font-style: italic;
+		}
 	</style>
 	<title>Hybrid Theory - Linkin Park</title>
 </head>
@@ -23,7 +46,7 @@
 			alt="Cover Photo"/>
 		<br>
 		<h1>Hybrid Theory</h1>
-		<h2><a href="http://onemorelight.linkinpark.com" target=_"blank">Linkin Park</a></h2>
+		<h2 style="font-family: normal;"><a href="http://onemorelight.linkinpark.com" target=_"blank">Linkin Park</a></h2>
 		<h3>October 24, 2000</h3>
 	</div>
 	<hr>
@@ -42,65 +65,69 @@
 	<div align="center">
 		<table border="1" width="1200px">
 		<caption><h2>Tracks</h2></caption>
+		<thead>
 			<tr bgcolor="gray">
 				<th>Track #</th>
 				<th>Track Title</th>
-				<th class="time">Track Length</th>
+				<th>Track Length</th>
 			</tr>
+		</thead>
+		<tbody>
 			<tr>
 				<td>1</td>
 				<td>"Papercut"</td>
-				<td class="time">3:04</td>
+				<td>3:04</td>
 			</tr>
 			<tr>
 				<td>2</td>
 				<td>"One Step Closer"</td>
-				<td class="time">2:35</td>
+				<td>2:35</td>
 			</tr>
 			<tr>
 				<td>3</td>
 				<td>"With You"</td>
-				<td class="time">3:23</td>
+				<td>3:23</td>
 			</tr>
 			<tr>
 				<td>4</td>
 				<td>"Points of Authority"</td>
-				<td class="time">3:20</td>
+				<td>3:20</td>
 			</tr>
 			<tr>
 				<td>5</td>
 				<td>"Crawling"</td>
-				<td class="time">3:29</td>
+				<td>3:29</td>
 			</tr>
 			<tr>
 				<td>6</td>
 				<td>"Runaway"</td>
-				<td class="time">3:03</td>
+				<td>3:03</td>
 			</tr>
 			<tr>
 				<td>7</td>
 				<td>"By Myself"</td>
-				<td class="time">3:09</td>
+				<td>3:09</td>
 			</tr>
 			<tr>
 				<td>8</td>
 				<td>"A Place for My Head"</td>
-				<td class="time">3:04</td>
+				<td>3:04</td>
 			</tr>
 			<tr>
 				<td>9</td>
 				<td>"Forgotten"</td>
-				<td class="time">3:14</td>
+				<td>3:14</td>
 			</tr>
 			<tr>
 				<td>10</td>
 				<td>"Cure for the Itch"</td>
-				<td class="time">2:37</td>
+				<td>2:37</td>
 			</tr>
 			<tr>
 				<td>11</td>
 				<td>"Pushing Me Away"</td>
-				<td class="time">3:11</td>
+				<td>3:11</td>
 			</tr>
+		</tbody>
 </body>
 </html>
